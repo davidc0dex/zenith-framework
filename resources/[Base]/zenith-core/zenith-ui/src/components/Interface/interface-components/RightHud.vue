@@ -39,7 +39,7 @@
 <script setup lang="ts">
 import Notify from './Notify.vue';
 import { ref, computed } from 'vue';
-import { formatMoney } from '../../../composables/functions';
+import { formatMoney } from '../../../composables/functions.js';
 
 const HudData = ref({
     uID: 0,
