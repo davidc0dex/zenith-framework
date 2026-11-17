@@ -32,10 +32,7 @@ ui_page 'zenith-ui/dist/index.html'
 
 files {
     'zenith-ui/dist/**/*',
-<<<<<<< HEAD
     'stream/*.*',
-=======
->>>>>>> 918d4112a3c3d19b0b3f6825593fb349dd46996c
 }
 
 use_experimental_fxv2_oal 'yes'
