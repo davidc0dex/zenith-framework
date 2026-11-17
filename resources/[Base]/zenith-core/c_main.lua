@@ -56,7 +56,3 @@ CreateThread(function()
         Wait(sleep)
     end
 end)
-
-RegisterNetEvent('__cfx_internal:serverPrint', function(console)
-    print(console)
-end);
