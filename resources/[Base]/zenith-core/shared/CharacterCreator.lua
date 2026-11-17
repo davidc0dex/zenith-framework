@@ -1,0 +1,51 @@
+CharacterCreator = {
+    position = {
+        coords = vector3(402.853668, -996.282654, -99.000252),
+        heading = 180.0
+    },
+    dads = {
+        [0] = "Benjamin",
+        [1] = "Daniel",
+        [2] = "Joshua",
+        [3] = "Noe",
+        [4] = "Santiago",
+        [5] = "David",
+        [6] = "Clark",
+        [7] = "Isaac",
+        [8] = "Evan",
+        [9] = "Zachary",
+        [10] = "Kevin",
+        [11] = "Louis",
+        [12] = "Steve",
+        [13] = "Earl",
+        [14] = "Martin",
+        [15] = "William",
+        [16] = "Robert",
+        [17] = "Thomas",
+        [18] = "Anthony",
+        [19] = "Michael"
+    },
+    mothers = {
+        [0] = "Hannah",
+        [1] = "Audrey",
+        [2] = "Jasmine",
+        [3] = "Giselle",
+        [4] = "Amelia",
+        [5] = "Isabella",
+        [6] = "Zoe",
+        [7] = "Ava",
+        [8] = "Charlotte",
+        [9] = "Emma",
+        [10] = "Sophia",
+        [11] = "Megan",
+        [12] = "Nicole",
+        [13] = "Alexandra",
+        [14] = "Madison",
+        [15] = "Olivia",
+        [16] = "Grace",
+        [17] = "Victoria",
+        [18] = "Lily",
+        [19] = "Abigail",
+        [20] = "Ella"
+    }
+}

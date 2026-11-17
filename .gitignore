@@ -1,0 +1,6 @@
+cache/
+artifacts/
+.replxx_history
+resources/[Assets]/
+server.cfg
+.env
