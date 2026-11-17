@@ -21,5 +21,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/composables/functions.js"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/composables/functions.ts"]
 }
