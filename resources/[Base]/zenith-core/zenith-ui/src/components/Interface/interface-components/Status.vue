@@ -1,10 +1,7 @@
 <template>
     <div class="absolute left-[2.5vh] bottom-[2.5vh] flex flex-row items-end">
-<<<<<<< HEAD
         <div v-if="isMapVisible" class="MapBorder duration-500 rounded-[1.1vh] h-[17.70vh] w-[30.7vh] transition-all"></div>
-=======
         <div v-if="isMapVisible" class="MapBorder duration-500 rounded-[1.1vh] h-[17.70vh] w-[27.7vh] transition-all"></div>
->>>>>>> 918d4112a3c3d19b0b3f6825593fb349dd46996c
 
         <div class="flex items-center gap-[0.75vh] pl-[0.5vh]">
             <div v-if="Status.health > 0" class="flex flex-col items-center gap-[0.5vh]">
