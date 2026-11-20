@@ -1,9 +1,6 @@
 <template>
-<<<<<<< HEAD
     <div v-if="visible" class="absolute inset-0 w-full h-full overflow-hidden select-none flex flex-col justify-center pl-[10vh] py-[15vh]">
-=======
     <div v-if="!visible" class="absolute inset-0 w-full h-full overflow-hidden select-none flex flex-col justify-center pl-[10vh] py-[15vh]">
->>>>>>> 918d4112a3c3d19b0b3f6825593fb349dd46996c
         <img src="/Images/auth-bg.png" alt="auth-bg" class="absolute top-0 left-0 opacity-30 w-full z-[-1] h-full object-cover pointer-events-none select-none" draggable="false"></img>
         <img src="/Images/auth-bg.png" alt="auth-bg" class="absolute top-0 left-0 w-full z-[-1] h-full object-cover pointer-events-none select-none" draggable="false"></img>
         <div class="w-[41vh] h-[6vh] flex items-center justify-between">
