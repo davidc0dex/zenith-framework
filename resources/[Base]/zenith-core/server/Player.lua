@@ -205,11 +205,8 @@ RegisterNetEvent("core:requestSpawnData", function()
         TriggerClientEvent("hud:statusUpdate", source, {
             health = user.health,
             armor = user.armor,
-<<<<<<< HEAD
             hunger = user.hunger,
             thirst = user.thirst,
-=======
->>>>>>> 918d4112a3c3d19b0b3f6825593fb349dd46996c
             stamina = 100
         })
     
@@ -228,7 +225,6 @@ AddEventHandler("playerDropped", function()
     local health = GetEntityMaxHealth(ped) > 100 and math.max(0, math.min(100, math.floor(((GetEntityHealth(ped) - 100) / (GetEntityMaxHealth(ped) - 100)) * 100))) or 100
     local armor = math.floor(GetPedArmour(ped))
 
-<<<<<<< HEAD
     local identifiers = Core.GetUserIdentifiers(player)
     local user = Core.Users[identifiers.license]
     local hunger = user and user.hunger or PlayerData.Survival.hunger
@@ -242,8 +238,6 @@ AddEventHandler("playerDropped", function()
         thirst,
         dbId 
     })
-    
-=======
     exports["oxmysql"]:execute("UPDATE users SET position = ?, health = ?, armor = ? WHERE id = ?", { 
         json.encode({ x = pos.x, y = pos.y, z = pos.z, heading = GetEntityHeading(ped) }), 
         health, 
@@ -252,6 +246,5 @@ AddEventHandler("playerDropped", function()
     })
     
     local identifiers = Core.GetUserIdentifiers(player)
->>>>>>> 918d4112a3c3d19b0b3f6825593fb349dd46996c
     if identifiers.license then Core.Users[identifiers.license] = nil end
 end)
